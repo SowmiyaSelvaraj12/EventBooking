@@ -9,7 +9,7 @@ function EventBookingSystem() {
   const { user, login, logout } = useAuth();
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+//   const [error, setError] = useState(null);
   const [category, setCategory] = useState('');
   const [search, setSearch] = useState('');
   const [selectedEvent, setSelectedEvent] = useState(null);
